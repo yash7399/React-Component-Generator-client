@@ -11,6 +11,7 @@ function PreviewPanel({ iframeContent, loading }) {
   }, [iframeContent]);
   return (
     <div className="panel preview-panel">
+      <h3>Preview</h3>
       {loading && (
         <div className="loading-overlay">
           <Spinner />
