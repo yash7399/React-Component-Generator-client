@@ -118,9 +118,9 @@ function Dashboard() {
           loading={loading}
           error={error}
         />
-        <button onClick={handleSave} style={{ marginTop: '1rem' }}>Save Session</button>
+        <button onClick={handleSave} style={{ marginTop: '1rem' }}>Save Component</button>
         <div style={{ marginTop: '2rem', flexGrow: 1, overflowY: 'auto' }}>
-          <h4>Saved Sessions</h4>
+          <h4>Saved Components</h4>
           <ul style={{ listStyle: 'none', padding: 0, marginTop: '1rem' }}>
             {sessions.map(session => (
               <li 
