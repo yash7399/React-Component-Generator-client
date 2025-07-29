@@ -17,7 +17,7 @@ function Login() {
 
   useEffect(() => {
     if (auth.user) {
-      navigate('/dashboard');
+      navigate('/');
     }
   }, [auth.user, navigate]);
 
