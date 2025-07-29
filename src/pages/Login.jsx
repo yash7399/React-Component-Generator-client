@@ -52,7 +52,7 @@ function Login() {
 
   return (
     <div style={formStyle}>
-      <h2>Login</h2>
+      <h2>LogIn</h2>
       <form onSubmit={handleSubmit}>
         <input
           type="email"
