@@ -1,7 +1,6 @@
 function ChatPanel({ prompt, setPrompt, handleSubmit, loading, error }) {
   return (
     <div className="panel chat-panel">
-      <h3>Generator Controls</h3>
       <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1rem', height: '100%' }}>
         <textarea
           value={prompt}
